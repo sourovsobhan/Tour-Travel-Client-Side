@@ -1,0 +1,16 @@
+.nav-color {
+	background-color: rgba(0, 0, 0, 0.842);
+}
+
+li.nav-item a {
+	padding: 20px;
+	text-decoration: none;
+	color: wheat;
+}
+
+.logo {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
+}
