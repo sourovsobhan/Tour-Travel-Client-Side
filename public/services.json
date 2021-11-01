@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Yesmin khatun",
+    "address": "Delhi",
+    "Prize": "20000",
+    "img": "https://i.ibb.co/WgzkZHZ/p-1.jpg"
+    
+  },
+  {
+    "id": 2,
+    "name": "Tanzila Shikhder",
+    "address": "Kashmir",
+    "Prize": "20000",
+    "img": "https://i.ibb.co/ZHzryZk/g-9.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Noyon",
+    "address": "Singapur",
+    "Prize": "20000",
+    "img": "https://i.ibb.co/1JPL9p3/g-8.jpg"
+    
+  },
+  {
+    "id": 4,
+    "name": "Noyon",
+    "address": "Chaina",
+    "Prize": "20000",
+    "img": "https://i.ibb.co/9vjLQhW/g-3.jpg"
+
+   
+  },
+  {
+    "id": 5,
+    "name": "Moynul khan",
+    "address": "Japan",
+    "Prize": "20000",
+    "img": "https://i.ibb.co/72SQf37/g-1.jpg"
+   
+  },
+  {
+    "id": 6,
+    "name": "Mosharof khan",
+    
+    "img": "https://i.ibb.co/w7QcjNP/banner-3.jpg",
+    "address": "Cox-Bazar",
+    "Prize": "20000"
+  }
+  
+ 
+]

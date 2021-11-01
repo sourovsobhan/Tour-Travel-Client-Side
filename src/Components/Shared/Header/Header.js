@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 import useFirebase from '../../../hooks/useFirebase';
 import './Header.css';
 const Header = () => {
-	const { users, logOut } = useFirebase();
+	const { users, logOut } = useAuth();
 
 	return (
 		<div>
@@ -38,13 +39,16 @@ const Header = () => {
 								<Link to="/contact">Contact</Link>
 							</li>
      
+							
 							<li className="nav-item">
-								<Link to="/booknow">Book-Now</Link>
+								<Link to="/services">services</Link>
 							</li>
-              <li className="nav-item">
+                            <li className="nav-item">
 								<Link to="/myorder">My Order</Link>
 							</li>
-
+							<li className="nav-item">
+								<Link to="/manageorder">Manage order</Link>
+							</li>
 
 
 							{users?.email ? (

@@ -20,7 +20,7 @@ const useFirebase = () => {
 	};
 	// observe user state changed
 	useEffect(() => {
-		const unsubscribe = onAuthStateChanged(auth, (user) => {
+		onAuthStateChanged(auth, (user) => {
 			if (user) {
 				setUsers(user);
 			} else {
@@ -28,7 +28,6 @@ const useFirebase = () => {
 			}
 			setIsLoading(false);
 		});
-		return () => unsubscribe;
 	}, []);
 
 	const logOut = () => {

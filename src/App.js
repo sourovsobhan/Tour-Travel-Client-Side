@@ -12,6 +12,9 @@ import Booknow from './Components/Booknow/Booknow';
 import Contact from './Components/Contact/Contact';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import MyOrder from './Components/MyOrder/MyOrder';
+import Services from './Components/Services/Services';
+import AddUsers from './Components/AddUsers/AddUsers';
+import Manageorder from './Components/Manageorder/Manageorder';
 
 function App() {
 	return (
@@ -32,9 +35,10 @@ function App() {
 						<Route path="/gallery">
 							<Gallery />
 						</Route>
-						<Route path="/booknow">
+						<PrivateRoute path="/booknow/:id">
 							<Booknow />
-						</Route>
+						</PrivateRoute>
+
 						<Route path="/contact">
 							<Contact />
 						</Route>
@@ -44,6 +48,15 @@ function App() {
 						<Route path="/login">
 							<Login />
 						</Route>
+						<Route path="/services">
+							<Services />
+						</Route>
+						<Route path="/addusers">
+							<AddUsers />
+						</Route>
+						<PrivateRoute path="/manageorder">
+							<Manageorder />
+						</PrivateRoute>
 
 						<Route path="*" exact>
 							<NotFound />
